@@ -9,7 +9,7 @@ import { Section } from "@/components/layout/Section";
 import bgContent from "@/images/landing_page/content.svg";
 import logoWhatIs from "@/images/landing_page/logoWhatIs.svg";
 import chart from "@/images/landing_page/chart.svg";
-import swap from "@/images/landing_page/swap.svg";
+import swap from "@/images/landing_page/Swap Content.svg";
 import lineleft from "@/images/landing_page/lineleft1.svg";
 import lineright from "@/images/landing_page/lineright2.svg";
 import imgChartSwap from "@/images/landing_page/mobilewhatis.svg";

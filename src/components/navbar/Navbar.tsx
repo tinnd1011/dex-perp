@@ -36,7 +36,7 @@ const Navbar = () => {
             <Image src={logo} alt="logo" />
           </div>
           <div>
-            <div className="items-center justify-center gap-x-4 text-base font-light text-icon_soft-400 hidden sm:flex">
+            <div className="items-center justify-center gap-x-4 text-base font-light text-[#99A0AE] hidden sm:flex">
               {LinkHero.map((item) => (
                 <motion.div
                   whileHover={{ scale: 1.1 }}

@@ -24,7 +24,7 @@ const Hero = () => {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1 }}
-        className="bg-[url('/images/landing_page/2270009_Futuristic_Meta_1920x1080.svg')] bg-cover bg-center relative min-h-screen"
+        className="bg-[url('/images/landing_page/video.mp4')] bg-cover bg-center relative min-h-screen"
       >
         {/* <Image
           src={heroBG}
@@ -33,6 +33,15 @@ const Hero = () => {
           height={1000}
           className="h-full w-full"
         /> */}
+        <div className="absolute top-0 left-0 w-full h-full object-cover bg-black/50">
+          <video
+            src="/images/landing_page/video.mp4"
+            autoPlay
+            loop
+            muted
+            className="w-full h-full object-cover"
+          />
+        </div>
         <motion.div
           initial={{ x: "100%", opacity: 0 }}
           animate={{ x: "0%", opacity: 1 }}
@@ -64,7 +73,7 @@ const Hero = () => {
         <div>
 
         </div>
-       <Navbar/>
+        <Navbar />
         <div className="absolute top-0 left-0 w-full h-full flex flex-col items-center justify-center">
           {/* Hero Section */}
           <Section yPadding="">
